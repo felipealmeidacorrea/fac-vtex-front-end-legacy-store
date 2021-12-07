@@ -1,0 +1,48 @@
+.fac-menu {
+    background-color: white;
+    position: relative;
+    margin-top: 0px
+}
+
+.fac-menu-mobile .slider__slides {
+    padding-left: 34px;
+  }
+
+.fac-menu>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    overflow-x: auto;
+    padding: 16px 0;
+    background-color: white;
+    scrollbar-color: #e41021 #e5e5e5;
+    scrollbar-width: thin;
+}
+
+.fac-menu>div::-webkit-scrollbar {
+    width: 8px;
+    height: 8px
+}
+
+.fac-menu>div::-webkit-scrollbar-track {
+    background: #e5e5e5;
+    border-radius: 100px
+}
+
+.fac-menu>div::-webkit-scrollbar-thumb {
+    background: #e41021;
+    border-radius: 100px
+}
+
+/* Caso ocorra ajuste forçado dos elementos na tela
+.fac-menu > div .box-banner {
+    min-width: 114px;
+  }
+*/
+
+.fac-menu>div .box-banner:not(:last-child) {
+    margin-right: 20px
+}
