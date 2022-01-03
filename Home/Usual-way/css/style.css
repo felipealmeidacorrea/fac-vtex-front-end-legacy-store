@@ -1,0 +1,31 @@
+body {
+    font-family: roboto;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.pre-header {
+    position: fixed;
+    width: 100%;
+    background-color: #e41021;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo--mobile {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 36px;
+}
+
+.pre-header p {
+    overflow: hidden;
+    width: 95%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 
+}
