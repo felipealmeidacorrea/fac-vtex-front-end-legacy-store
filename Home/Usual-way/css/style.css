@@ -8,6 +8,8 @@ header {
 }
 .pre-header {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: #e41021;
     color: #ffffff;
@@ -16,10 +18,12 @@ header {
 }
 
 .logo--mobile {
-    display: flex;
+    position: relative;
+    z-index: 20;
+    background: #fff;
+    padding: 10px 15px;
     justify-content: center;
-    padding: 20px;
-    margin-top: 36px;
+
 }
 
 .pre-header p {
@@ -27,5 +31,4 @@ header {
     width: 95%;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin: 
 }
