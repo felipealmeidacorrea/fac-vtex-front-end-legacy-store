@@ -32,3 +32,7 @@ header {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
+body {
+    padding-top: 36px;
+}
